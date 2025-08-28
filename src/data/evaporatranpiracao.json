@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Qual o nome dado ao processo de evaporação da água do solo que ocorre junto à transpiração das plantas?",
+    "options": ["Precipitação", "Transpiração", "Gutação", "Evapotranspiração"],
+    "correctIndex": 3
+  },
+  {
+    "question": "Quando a evaporação cessa?",
+    "options": [
+      "Quando a temperatura do ar atinge 0°C",
+      "Quando a umidade relativa do ar atinge 100%",
+      "Quando a pressão atmosférica diminui",
+      "Quando o vento para de soprar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Qual é a principal função do tanque Classe A?",
+    "options": [
+      "Medir a intensidade do vento",
+      "Medir a temperatura do ar",
+      "Medir a evaporação em uma superfície líquida exposta",
+      "Medir a radiação solar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Qual dos seguintes fatores NÃO interfere na evaporação?",
+    "options": [
+      "Umidade relativa do ar",
+      "Temperatura do ar",
+      "Qualidade da água",
+      "Velocidade do vento"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A evapotranspiração é um processo diretamente relacionado com o ciclo:",
+    "options": ["Do nitrogênio", "Do enxofre", "Do carbono", "Da água"],
+    "correctIndex": 3
+  },
+  {
+    "question": "A evaporação é o processo pelo qual a água passa do estado:",
+    "options": [
+      "Sólido para o gasoso",
+      "Líquido para o gasoso de maneira instantânea",
+      "Líquido para o sólido",
+      "Líquido para o gasoso de maneira lenta e gradual"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Qual alternativa incorreta:",
+    "options": [
+      "A evapotranspiração garante que uma grande quantidade de água retorne para a atmosfera",
+      "A evapotranspiração afeta o balanço hídrico das microbacias",
+      "A evapotranspiração não apresenta relação com a umidade atmosférica",
+      "A regulação do regime de chuvas é influenciado pela evapotranspiração"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Apesar de poder ocorrer em qualquer parte da planta, o principal órgão vegetal relacionado com a transpiração é:",
+    "options": ["Fruto", "Caule", "Raiz", "Folha"],
+    "correctIndex": 3
+  },
+  {
+    "question": "Estrutura relacionada com a perda de água por transpiração:",
+    "options": ["Endosperma", "Estômatos", "Ráfide", "Cloroplasto"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Qual o nome dado à máxima evapotranspiração que ocorreria se o solo dispusesse de suprimento de água suficiente?",
+    "options": [
+      "Evapotranspiração real",
+      "Evapotranspiração atual",
+      "Evapotranspiração de referência",
+      "Evapotranspiração potencial"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Evapotranspiração que realmente ocorre em função da limitada disponibilidade de água no solo e da variabilidade do ciclo do vegetal?",
+    "options": [
+      "Evapotranspiração real",
+      "Evapotranspiração latente",
+      "Evapotranspiração de referência",
+      "Evapotranspiração potencial"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Sobre a evapotranspiração, marque a alternativa incorreta:",
+    "options": [
+      "A evapotranspiração envolve a evaporação da água do solo e a transpiração dos vegetais",
+      "A estação do ano influencia na taxa de transpiração do vegetal",
+      "A evapotranspiração é essencial para o ciclo da água",
+      "A taxa de transpiração é sempre a mesma durante o desenvolvimento do vegetal"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Instrumento para medir evapotranspiração chama-se:",
+    "options": ["Evaporímetro", "Tanque Classe A", "Lisímetro", "Anemômetro"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Qual dos seguintes métodos é um método empírico de estimativa da evapotranspiração?",
+    "options": [
+      "Método de Penman-Monteith",
+      "Método do tanque Classe A",
+      "Método da correlação dos turbilhões",
+      "Método do saldo de radiação"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Como é medida a evaporação no tanque Classe A?",
+    "options": [
+      "Pela medição do nível de água com um termômetro",
+      "Pela diferença no nível de água entre dois dias consecutivos",
+      "Pelo uso de sensores de umidade instalados no tanque",
+      "Pela quantidade de água absorvida por plantas ao redor do tanque"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "O que é o coeficiente da cultura (Kc)?",
+    "options": [
+      "Um valor adimensional usado para ajustar a evapotranspiração de referência (ETo) para uma cultura específica",
+      "A quantidade de água que uma planta consome diariamente",
+      "A quantidade de água evaporada de uma superfície",
+      "A taxa de infiltração de água no solo ao redor das plantas"
+    ],
+    "correctIndex": 0
+  }
+]

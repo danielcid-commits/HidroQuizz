@@ -1,0 +1,337 @@
+/* ==============================
+   BASE / TOKENS
+   ============================== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --bg1: #0ea5ea; /* azul */
+  --bg2: #7c3aed; /* roxo */
+  --card: #ffffff;
+  --text: #0f172a; /* slate-900 */
+  --muted: #475569; /* slate-600 */
+  --ok: #16a34a;
+  --bad: #dc2626;
+  --border: #e5e7eb;
+  --shadow: 0 20px 40px rgba(2, 6, 23, 0.1);
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: #f8fafc;
+}
+
+/* ==============================
+      LAYOUT PRINCIPAL / BACKGROUND
+      ============================== */
+.page {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+/* Gradiente geral (fallback para outras telas) */
+.gradient {
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+}
+
+/* ---- Tela com imagem de fundo (start) ----
+      Coloque a imagem em /public/ (caminho absoluto) */
+/*.hero-bg {
+  position: relative;
+  background-image: url("/quizzhidrotm1.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Camada de overlay para melhorar a leitura do texto sobre a imagem */
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(14, 165, 234, 0.45),
+    rgba(124, 58, 237, 0.45)
+  ); /* gradiente suave */
+  backdrop-filter: saturate(120%) blur(0.5px);
+  /* permite que o conteúdo apareça acima */
+  z-index: 0;
+}
+
+/* garante que os filhos fiquem acima do overlay */
+.hero-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ==============================
+      CARTÕES / CONTAINERS
+      ============================== */
+.card {
+  width: min(960px, 100%);
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+
+.loading {
+  background: #fff;
+  padding: 24px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: var(--muted);
+}
+
+/* ==============================
+      CABEÇALHO / BADGE / BARRAS
+      ============================== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.badge {
+  background: #e2e8f0;
+  color: #0f172a;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.bar {
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.bar--time {
+  height: 8px;
+  background: #fee2e2;
+}
+.bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* ==============================
+      PERGUNTA / OPÇÕES
+      ============================== */
+.question {
+  font-size: 22px;
+  line-height: 1.35;
+  margin: 12px 0 18px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.option {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+.option:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(2, 6, 23, 0.08);
+}
+.option:disabled {
+  cursor: not-allowed;
+}
+
+.option--correct {
+  background: #dcfce7;
+  border-color: #86efac;
+}
+.option--wrong {
+  background: #fee2e2;
+  border-color: #fecaca;
+}
+.option--dim {
+  opacity: 0.6;
+}
+
+/* Feedback */
+.feedback {
+  margin-top: 10px;
+  font-weight: 700;
+}
+.feedback.ok {
+  color: var(--ok);
+}
+.feedback.bad {
+  color: var(--bad);
+}
+
+/* ==============================
+      AÇÕES / BOTÕES
+      ============================== */
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+}
+.btn {
+  border: 1px solid var(--border);
+  background: #fff;
+  color: #111827;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.btn:hover {
+  background: #f8fafc;
+}
+.btn--primary {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+.btn--primary:hover {
+  background: #2563eb;
+}
+.btn--lg {
+  padding: 14px 22px;
+  font-size: 16px;
+}
+
+/* ==============================
+      HERO (tela inicial)
+      ============================== */
+.hero {
+  width: min(880px, 100%);
+  background: #ffffffd9; /* leve transparência */
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 32px;
+  text-align: center;
+}
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 36px;
+}
+.hero p {
+  margin: 0 0 14px;
+  color: var(--muted);
+}
+
+.hero-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero-list li {
+  background: #fff;
+  border: 1px solid var(--border);
+  color: #111827;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* ==============================
+      RESULTADOS / HISTÓRICO
+      ============================== */
+.result {
+  width: min(860px, 100%);
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  text-align: center;
+}
+.result h2 {
+  margin: 0 0 6px;
+  font-size: 28px;
+}
+.result p {
+  margin: 0 0 18px;
+  color: #111827;
+}
+
+.history {
+  text-align: left;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0 auto 14px;
+  max-height: 40vh;
+  overflow: auto;
+}
+.history h3 {
+  margin: 0 0 10px;
+}
+.history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+.history li {
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+.history li.ok {
+  background: #dcfce7;
+}
+.history li.bad {
+  background: #fee2e2;
+}
+.history .q {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.history .detail {
+  color: var(--muted);
+  font-size: 14px;
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "question": "Qual fator aumenta a capacidade de infiltração do solo?",
+    "options": [
+      "Baixa porosidade",
+      "Ausência de matéria orgânica",
+      "Compactação intensa do solo",
+      "Cobertura vegetal densa"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "O que é infiltração no contexto hidrológico?",
+    "options": [
+      "É a elevação do nível do lençol freático",
+      "É a evaporação da água superficial",
+      "É o processo de penetração da água no solo",
+      "É a movimentação de água entre bacias"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Qual fator abaixo tende a reduzir a infiltração no solo?",
+    "options": [
+      "Presença de vegetação densa",
+      "Porosidade elevada",
+      "Compactação do solo",
+      "Solo seco no início do evento de chuva"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "O que acontece se a intensidade da chuva for maior que a capacidade de infiltração do solo?",
+    "options": [
+      "Todo o volume da chuva se infiltra",
+      "A taxa de infiltração aumenta automaticamente",
+      "O excesso de água escoa superficialmente",
+      "A evaporação neutraliza o excesso de água"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Quando ocorre a infiltração máxima em um solo seco?",
+    "options": [
+      "Após o solo atingir a capacidade de campo",
+      "Durante a murcha permanente das plantas",
+      "Logo no início da chuva, devido à alta sucção do solo",
+      "Quando o solo está completamente saturado"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "O ponto de murcha permanente é atingido quando?",
+    "options": [
+      "Toda a água do solo evapora",
+      "As plantas conseguem absorver mais água que o necessário",
+      "O solo atinge a saturação total",
+      "A água restante no solo está indisponível para as raízes"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "A equação de Horton é usada para modelar:",
+    "options": [
+      "A capacidade de infiltração ao longo do tempo",
+      "A infiltração de uma cultura",
+      "O escoamento superficial",
+      "A recarga do aquífero"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A capacidade de infiltração (fp) é definida como:",
+    "options": [
+      "A taxa máxima que o solo pode absorver água em mm/h",
+      "A taxa de percolação inicial do solo",
+      "A quantidade de água que infiltra no lençol freático",
+      "O volume total infiltrado ao longo do tempo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A zona do solo onde os poros estão completamente preenchidos por água é chamada de:",
+    "options": [
+      "Faixa de capilaridade",
+      "Zona de saturação",
+      "Faixa intermediária",
+      "Zona de aeração"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "O que é a porosidade de um solo?",
+    "options": [
+      "A quantidade de água que o solo consegue armazenar após a evaporação.",
+      "A proporção do volume total do solo ocupada pelas partículas sólidas.",
+      "É o volume dos poros dividido pelo volume total do solo.",
+      "A razão entre a massa do solo úmido e a massa do solo seco."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "O que representa a densidade do solo?",
+    "options": [
+      "A razão entre a massa total do solo e o volume dos poros.",
+      "A quantidade de água presente no solo saturado.",
+      "A razão entre a massa seca do solo e o volume total (sólidos + poros).",
+      "O peso específico das partículas minerais do solo, desconsiderando os poros."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A massa total de um solo (mt) é composta por:",
+    "options": [
+      "Apenas a massa das partículas sólidas.",
+      "A soma das massas da água, do ar e das partículas sólidas presentes no solo.",
+      "O peso da água disponível na zona de saturação.",
+      "A diferença entre o volume total e a porosidade do solo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "O volume dos poros em um solo representa:",
+    "options": [
+      "O volume total de matéria orgânica presente no perfil do solo.",
+      "A diferença entre o volume total do solo e o volume das partículas sólidas.",
+      "O volume de água disponível no solo na condição de saturação.",
+      "A porção do solo ocupada apenas por gases."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A Lei de Darcy é usada para:",
+    "options": [
+      "Estimar o escoamento superficial direto.",
+      "Medir a umidade relativa do ar.",
+      "Avaliar o fluxo de água em solos saturados.",
+      "Calcular a evaporação em corpos d’água."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "O ponto de murcha permanente ocorre quando:",
+    "options": [
+      "Toda a água do solo evapora.",
+      "As plantas conseguem absorver mais água que o necessário.",
+      "O solo atinge a saturação total.",
+      "A água restante no solo está indisponível para as raízes."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "O que representa a Capacidade de Campo no solo?",
+    "options": [
+      "O ponto em que o solo está saturado de água.",
+      "A umidade mínima que o solo pode conter.",
+      "O equilíbrio entre drenagem gravitacional e retenção de água.",
+      "A quantidade de água não disponível para as plantas."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "O que caracteriza a zona de aeração no solo?",
+    "options": [
+      "Poros completamente cheios de água.",
+      "Exclusiva presença de gases.",
+      "Poros parcialmente preenchidos com ar e água.",
+      "Movimento de água pressurizada."
+    ],
+    "correctIndex": 2
+  }
+]

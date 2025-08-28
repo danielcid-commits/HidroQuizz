@@ -1,0 +1,223 @@
+[
+  {
+    "question": "O que é uma bacia hidrográfica?",
+    "options": [
+      "Área delimitada por divisores topográficos que drena para um único exutório",
+      "Conjunto de aquíferos interconectados sem relação com a topografia",
+      "Apenas o canal principal de um rio",
+      "Área administrativa municipal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "O que é o exutório de uma bacia?",
+    "options": [
+      "O ponto de menor cota na nascente",
+      "O ponto por onde a água deixa a bacia (saída)",
+      "O ponto mais elevado do divisor",
+      "O trecho com maior vazão de retorno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "O divisor de águas é:",
+    "options": [
+      "Canal de drenagem de primeira ordem",
+      "Linha de menor cota que concentra escoamento",
+      "Linha de maior cota que separa bacias vizinhas",
+      "Área de recarga do aquífero livre"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Ordem de cursos d’água segundo Strahler:",
+    "options": [
+      "Aumenta quando dois canais de mesma ordem se juntam",
+      "Aumenta sempre que qualquer afluente entra",
+      "Diminui a jusante",
+      "É definida apenas por comprimento do canal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Densidade de drenagem (Dd) representa:",
+    "options": [
+      "Relação entre comprimento total de canais e área da bacia",
+      "Relação entre vazão média e área da bacia",
+      "Número de nascentes por quilômetro",
+      "Percentual de área impermeável"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Coeficiente de compacidade (Kc) próximo de 1 indica:",
+    "options": [
+      "Bacia muito alongada",
+      "Bacia mais circular, com tendência a picos rápidos",
+      "Baixa densidade de drenagem",
+      "Maior infiltração garantida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fator de forma (Kf) proximo a 1 sugere:",
+    "options": [
+      "Bacia alongada, hidrogramas mais atenuados",
+      "Bacia circular, concentração de fluxo mais rápida",
+      "Baixa resposta hidrológica",
+      "Domínio de recarga subterrânea"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sinuosidade do canal principal mede:",
+    "options": [
+      "A relação entre comprimento do canal e comprimento do talvegue",
+      "O quanto o canal se desvia da linha reta entre montante e jusante",
+      "A rugosidade da planície de inundação",
+      "Somente a curvatura nas nascentes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tempo de concentração (Tc) é:",
+    "options": [
+      "Tempo para a chuva começar na bacia",
+      "Tempo para a gota da região mais distante alcançar o exutório",
+      "Tempo de retorno do evento extremo",
+      "Tempo de enchimento do aquífero"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Assinale o principal efeito do aumento de impermeabilização urbana:",
+    "options": [
+      "Eleva a infiltração e reduz o pico de vazão",
+      "Reduz o escoamento superficial e aumenta o Tc",
+      "Aumenta o escoamento superficial e eleva o pico de vazão",
+      "Não altera a resposta hidrológica"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A curva hipsométrica descreve:",
+    "options": [
+      "A relação cota–área acumulada da bacia",
+      "A relação vazão–frequência",
+      "A relação chuvas–vazões",
+      "A relação permeabilidade–profundidade"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Bacias exorreicas e endorreicas são, respectivamente:",
+    "options": [
+      "Sem saída superficial / com saída para o oceano",
+      "Com saída para o oceano / sem saída superficial interna",
+      "Com recarga / sem recarga",
+      "Com lagoas / com aquíferos"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A área de uma bacia influencia diretamente:",
+    "options": [
+      "O comprimento do período de retorno",
+      "A magnitude das vazões geradas para uma mesma chuva",
+      "A densidade populacional",
+      "A rugosidade de Manning do canal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Em bacias mais alongadas, é comum observar:",
+    "options": [
+      "Tempo de concentração menor e picos mais agudos",
+      "Picos simultâneos em todos os tributários",
+      "Ausência de escoamento subterrâneo",
+      "Tempo de concentração maior e hidrogramas mais atenuados"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "A orientação do relevo e das encostas afeta principalmente:",
+    "options": [
+      "A direção do escoamento superficial e a convergência para o talvegue",
+      "A direção do vento local",
+      "A salinidade do solo",
+      "A porosidade efetiva dos aquíferos confinados"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Em termos de uso do solo, qual cenário tende a reduzir picos de vazão?",
+    "options": [
+      "Aumento de vias pavimentadas",
+      "Retificação do canal principal",
+      "Ampliação de áreas florestadas e conservação de solos",
+      "Supressão de APPs (matas ciliares)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A rede de drenagem de uma bacia é composta por:",
+    "options": [
+      "Somente o rio principal",
+      "Riachos, córregos, canais principais e seus afluentes",
+      "Apenas canais de ordem ≥ 3",
+      "Somente canais perenes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "O talvegue é definido como:",
+    "options": [
+      "A linha divisora entre sub-bacias",
+      "A linha mais baixa da bacia onde escoamento acontece",
+      "A área de recarga do aquífero",
+      "O ponto de monitoramento de chuva"
+    ],
+    "correctIndex": 1
+  },
+
+  {
+    "question": "A hierarquia fluvial ajuda a:",
+    "options": [
+      "Definir propriedades químicas da água",
+      "Caracterizar a estrutura da rede e comparar bacias",
+      "Definir apenas a largura do canal",
+      "Calcular a evapotranspiração"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sub-bacias são úteis para:",
+    "options": [
+      "Eliminar a necessidade de monitoramento",
+      "Detalhar a resposta espacial e apoiar gestão segmentada",
+      "Ignorar diferenças de uso do solo",
+      "Reduzir a área total da bacia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A compactação do solo na bacia tende a:",
+    "options": [
+      "Aumentar a infiltração e reduzir a enxurrada",
+      "Reduzir a infiltração e aumentar o escoamento superficial",
+      "Elevar a recarga profunda em qualquer cenário",
+      "Não afetar a resposta hidrológica"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A presença de matas ciliares ao longo dos canais:",
+    "options": [
+      "Aumenta a velocidade do escoamento no leito",
+      "Favorece retenção de sedimentos e atenua picos de vazão",
+      "Reduz a rugosidade hidráulica",
+      "Impede a infiltração em planícies"
+    ],
+    "correctIndex": 1
+  }
+]
