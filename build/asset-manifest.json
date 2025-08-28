@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HidroQuizz/static/css/main.073b7250.css",
+    "main.js": "/HidroQuizz/static/js/main.5762c574.js",
+    "index.html": "/HidroQuizz/index.html",
+    "main.073b7250.css.map": "/HidroQuizz/static/css/main.073b7250.css.map",
+    "main.5762c574.js.map": "/HidroQuizz/static/js/main.5762c574.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073b7250.css",
+    "static/js/main.5762c574.js"
+  ]
+}
