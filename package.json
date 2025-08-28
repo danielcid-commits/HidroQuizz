@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "hidroquizz",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -13,13 +13,22 @@
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "loader-utils": "3.2.1",
-    "typescript": "5.7.2"
+    "typescript": "5.7.2",
+    "gh-pages": "^6.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "homepage": "https://danielcid-commits.github.io/HidroQuizz",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
