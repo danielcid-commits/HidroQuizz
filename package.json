@@ -24,11 +24,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://danielcid-commits.github.io/HidroQuizz",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    "homepage": "https://danielcid-commits.github.io/HidroQuizz",
+   "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+ 
   ]
 }
