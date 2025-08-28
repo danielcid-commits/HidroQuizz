@@ -43,7 +43,7 @@ body {
 
 /* Você ainda pode ajustar os elementos internos */
 h1, h2, h3, p {
-  color: white; /* exemplo: deixa o texto branco em cima do fundo */
+  color: black; /* exemplo: deixa o texto branco em cima do fundo */
 /*  text-shadow: 1px 1px 4px black; /* melhora a leitura */
 }
 
