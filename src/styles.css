@@ -24,12 +24,29 @@ body,
 #root {
   height: 100%;
 }
+/* App.css */
+
 body {
   margin: 0;
-  font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
-  color: var(--text);
-  background: #f8fafc;
+  padding: 0;
+  font-family: sans-serif;
+
+  /* 🔹 Imagem de fundo */
+  background-image: url('./quizzhidrotm1.png');
+  background-size: cover;        /* cobre toda a tela */
+  background-position: center;   /* centraliza a imagem */
+  background-repeat: no-repeat;  /* evita repetição */
+  background-attachment: fixed;  /* deixa o fundo fixo ao rolar */
+
+  min-height: 100vh; /* garante altura mínima */
 }
+
+/* Você ainda pode ajustar os elementos internos */
+h1, h2, h3, p {
+  color: white; /* exemplo: deixa o texto branco em cima do fundo */
+/*  text-shadow: 1px 1px 4px black; /* melhora a leitura */
+}
+
 
 /* ==============================
       LAYOUT PRINCIPAL / BACKGROUND
